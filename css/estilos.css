@@ -312,3 +312,29 @@ nav ul li a
     margin-right: 2%;
   }
 }
+
+/* Formularios*/
+
+.formulario
+{
+  padding: 1em;
+  text-align: right;
+  display: none;
+}
+
+.formulario input
+{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.2em 0.6em;
+}
+
+.formulario input[type="submit"]
+{
+  background: #22BCE0;
+  border-color: #22BCE0;
+  box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+  font-style: italic;
+  text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+  color: white;
+}
