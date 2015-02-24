@@ -50,6 +50,11 @@ a
   color: #22BCE0;
 }
 
+aside
+{
+  display: none;
+}
+
 body
 {
   background: #EEEEEE;
@@ -159,6 +164,12 @@ nav ul #publicar_nav
   position: absolute;
   top: -0.4em;
   right: 0;
+}
+
+nav ul #publicar_nav a.disabled{
+  background-color: grey;
+  cursor:default;
+  box-shadow: none;
 }
 
 nav ul #publicar_nav a
@@ -338,3 +349,12 @@ nav ul li a
   text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
   color: white;
 }
+
+@media screen and (min-width: 1000px){
+  aside
+  {
+    display: block;
+    float: right;
+    margin:1em;
+    width: 25%;
+  }
